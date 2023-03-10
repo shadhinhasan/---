@@ -1,0 +1,39 @@
+body{
+    background-color: #34fd77;
+}
+
+/* .box1{
+    height: 200px;
+    width: 200px;
+    background-color: mediumturquoise;
+    margin-right: 10px;
+    float: left;
+    border-radius: 205px 205px 205px 0px;
+} */
+
+#wrapper{
+    width: 100%;
+    height: 1100px;
+    background-color: #db72db;
+}
+
+#header-wrapper{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+#header-wrapper#logo{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #81a1f7;
+}
+
+/* #header-wrapper#banar{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #1b3377;
+} */
