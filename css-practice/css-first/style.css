@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wraper{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #008000;
+}  /*class selector*/
+
+header{  /*tag selector*/
+    height: 150px;
+    width: 100%;
+}
+
+.logo{
+    width: 20%;
+    height: 150px;
+    background-color: #79b679;
+    float: left;
+}
+
+.logo-img{
+    height: 150px;
+    width: 100%;
+}
+
+.header-text{
+    width: 80%;
+    height: 150px;
+    background-color: #79b679;
+    float: left; 
+    text-align: center;
+}
+
+.college-name{
+    color: #008000;
+    font-size: 35px;
+}
+/* start-navbar */
+.navbar{
+    height: 50px;
+    background-color: #97e097;
+}
+
+.content-areya{
+    height: 500px;
+    background-color: #b7ecb7;
+}
+
+.content-left{
+    width: 30%;
+    float: left;
+    background-color: #87e487;
+    height: 100%;
+}
+
+.content-right{
+    width: 70%;
+    float: left;
+}
+
+.footer{
+    height: 50px;
+    background-color: #79b679;
+}

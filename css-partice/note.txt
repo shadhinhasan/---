@@ -1,7 +1,0 @@
-*css 3 prokar
-	1.inline css
-		*line ar majay j style attibut laka hoi takay inline css bolay. 
-	2.internal css 
-		*Nedristo docoment a style tag ar modday j css laka hoi sat takay internal css bolay .
-	3.extarnal css
- 
