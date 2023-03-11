@@ -1,0 +1,120 @@
+body{
+    background-color: #000000;
+    margin: 5px 10%;
+}
+
+/* .box1{
+    height: 200px;
+    width: 200px;
+    background-color: mediumturquoise;
+    margin-right: 10px;
+    float: left;
+    border-radius: 205px 205px 205px 0px;
+} */
+
+#wrapper{
+    width: 100%;
+    height: 1300px;
+    background-color: #666666;
+}
+
+#header-wrapper{
+    float: left;
+    width: 100%;
+    height: 150px;
+    background-color: #ffffff;
+}
+
+#header-wrapper #logo{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: #999999;
+    margin-right: .3%;
+}
+
+#header-wrapper #banar{
+    float: left;
+    width: 74.7%;
+    height: 100%;
+    background-color: #999999;
+} 
+
+#menu{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #999999;
+    margin-top: 5px;
+} 
+
+#content-wrapper{
+    float: left;
+    width: 100%;
+    min-height: 800px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+#content-wrapper #left{
+    float: left;
+    width: 20%;
+    height: 800px;
+    background-color: #999999;
+    margin-right: .3%;
+}
+
+#content-wrapper #content{
+    float: left;
+    width: 59.4%;
+    height: 800px;
+    background-color: #999999;
+    margin-right: .3%;
+}
+
+#content-wrapper #right{
+    float: left;
+    width: 20%;
+    height: 800px;
+    background-color: #999999;
+}
+
+#big-footer-wrapper{
+    float: left;
+    width: 100%;
+    min-height: 200px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+#big-footer-wrapper #gallery{
+    float: left;
+    width: 33%;
+    height: 200px;
+    background-color: #999999;
+    margin-right: .3%;
+}
+
+#big-footer-wrapper #service{
+    float: left;
+    width: 33.4%;
+    height: 200px;
+    background-color: #999999;
+    margin-right: .3%;
+}
+
+#big-footer-wrapper #contact{
+    float: left;
+    width: 33%;
+    height: 200px;
+    background-color: #999999;
+}
+
+#footer{
+    float: left;
+    width: 100%;
+    height: 80px;
+    background-color: #999999;
+    margin-top: 5px;
+}
+

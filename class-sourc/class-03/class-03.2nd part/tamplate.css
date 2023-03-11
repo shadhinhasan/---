@@ -21,19 +21,28 @@ body{
     float: left;
     width: 100%;
     height: 150px;
-    background-color: #ffffff;
+    background-color: #eccaca;
 }
 
-#header-wrapper#logo{
+#header-wrapper #logo{
     float: left;
     width: 25%;
     height: 100%;
-    background-color: #81a1f7;
+    background-color: #a49de2;
+    margin-right: .3%;
 }
 
-/* #header-wrapper#banar{
+#header-wrapper #banar{
     float: left;
-    width: 25%;
+    width: 74.7%;
     height: 100%;
-    background-color: #1b3377;
-} */
+    background-color: #a49de2;
+} 
+
+#menu{
+    float: left;
+    width: 100%;
+    height: 50px;
+    background-color: #a49de2;
+    margin-top: 5px;
+} 
