@@ -1,0 +1,19 @@
+.nevbar{
+    background-color: #008000; /*total manu bar*/
+}
+.nevbar ul{
+    list-style: none;  /* ul ar dot chinno k soraitay none babohar kora hoi*/
+}
+.nevbar ul li{
+    display: inline-block;  /*list ar itam gula akoi line a nay*/
+    padding: 20px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.nevbar ul li:hover{             /*cursor uporay nelay chang hoi/vover manay uporay neow*/
+    background-color: #b3e287;   
+    color: #000000;
+    border-radius: 20px 0px;
+    cursor: pointer;
+}

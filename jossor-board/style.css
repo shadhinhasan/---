@@ -8,7 +8,7 @@ body{
 }
 
 .wraper{
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -48,14 +48,40 @@ body{
 
 .news{
     width:100%;
-    height: 100px;
 }
+
+.area{
+    background-color: #3bbebe;
+}
+
+.area ul{
+    list-style: none;
+}
+
+.area ul li{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 35px;
+    /* border-right-style:solid;
+    border-right-color:#ffffff;
+    border-right-width:17px */
+    border-right: 2px solid #0c8080;
+}
+
+.area ul li:hover{
+    background-color: #7cffff;
+    
+
+}
+
 
 .news-1{
     width: 20%;
     height: 50px;
     background-color: #6ae7e7;
     text-align: center;float: left;
+    font-size: 30px;
 }
 
 .news-2{
@@ -63,23 +89,112 @@ body{
     height: 50px;
     background-color: #50f0f0;
     float: left;
+    font-size: 25px;
 }
 
 .footer{
     width: 100%;
-    height: 500px;
+    height: 1672px;
     background-color: #1fd1d1;
 }
 
 .footer-1{
     width: 20%;
-    height: 500px;
+    height: 1622px;
     float: left;
+    padding-left: 10px;
+}
+
+.mujib{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.march{
+    width: 100%;
+    background-color: #128033;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.video{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.services{
+    width: 100%;
+    background-color:#128033 ;
+    font-size: 25px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.carry{
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+.Result{
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 5px;
+    height: 25px;
+}
+
+.reg{
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 5px;
+    height: 25px;
+}
+
+.Important-Links{
+    width: 100%;
+    background-color: #128033;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+.Education{
+    color: #070005;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+.dhaka{
+    color: #000000;
+    text-align: center;
+    background-color: #ffffff;
+    margin-top: 5px;
+    height: 25px;
+}
+
+.international{
+    width: 100%;
+    height: 471px;
+    margin-top: 5px;
+}
+
+.emergency{
+    width: 100%;
+    height: 464px;
+    margin-top: 10px;
+    
 }
 
 .footer-lift{
-    width: 60%;
-    height: 500px;
+    width: 58%;
+    height: 1622px;
     float: left;
     text-align: center;
     font-size: 30px;
@@ -87,7 +202,7 @@ body{
 
 .footer-right{
     width: 20%;
-    height: 500px;
+    height: 1622px;
     float: left;
 }
 
@@ -101,8 +216,10 @@ body{
     vertical-align: top;
 }
 
-.footer-area{
+.Copyright{
     width: 100%;
     height: 50px;
-    background-color: #57cfcf;
+    background-color: #89f5f5;
+    color: #7134e2;
+    font-size: 20px
 }
