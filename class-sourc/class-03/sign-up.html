@@ -26,11 +26,73 @@
 				<h3>Sign-Up</h3>
 				<hr>
 				<form action="" method="post">
-					<table>
+					<table align="center">
 						<tr>
-							<td> <strong>Name:</strong></td>
+							<td width="150px"><strong>Name:</strong></td>
 							<td>
-								<input type="text" name="full name">
+								<input type="text" name="full name" size="40" placeholder="Entar Name" required>
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>Email:</strong></td>
+							<td>
+								<input type="email" name="email" size="40" maxlength="100" required>
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>Passeord:</strong></td>
+							<td>
+								<input type="passeord" name="Passeord" size="40">
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>Address:</strong></td>
+							<td>
+								<textarea name="address"rows="5" cols="40"></textarea>
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>Country:</strong></td>
+							<td>
+								<select>
+									<option>Select Your Country...</option>
+									<option>Bangladesh</option>
+									<option>Srilanka</option>
+									<option>United State</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>Upload:</strong></td>
+							<td>
+								<input type="file" name="upload" size="40">
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>Gender:</strong></td>
+							<td>
+								<input type="radio" name="gender" value="male">Male
+								<input type="radio" name="gender" value="female">Female
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>DOB:</strong></td>
+							<td>
+								<input type="date" name="dob">
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong>I Agree:</strong></td>
+							<td>
+								<input type="checkbox" name="agree">
+							</td>
+						</tr>
+						<tr>
+							<td width="150px"><strong></strong></td>
+							<td>
+								<input type="button" name="btn" value="Button">
+								<input type="submit" name="btn1" value="Save">
+								<input type="reset" name="btn2" value="Reset">
 							</td>
 						</tr>
 					</table>
