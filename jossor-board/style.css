@@ -8,7 +8,7 @@ body{
 }
 
 .wraper{
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -80,7 +80,8 @@ body{
     width: 20%;
     height: 50px;
     background-color: #6ae7e7;
-    text-align: center;float: left;
+    text-align: center;
+    float: left;
     font-size: 30px;
 }
 
@@ -92,22 +93,32 @@ body{
     font-size: 25px;
 }
 
-.footer{
+.marquss-img{
+    width: 4%;
+    height: 42px;
+    padding: 5px;
+} 
+
+.news-2 span{
+    vertical-align: top;
+}
+
+.footer{                          /*1*/
     width: 100%;
-    height: 1672px;
+    height: 2500px;
     background-color: #1fd1d1;
+    padding-top:70px ;
 }
 
 .footer-1{
     width: 20%;
-    height: 1622px;
+    height: 2500px;
     float: left;
-    padding-left: 10px;
+    margin-left: 1%;
 }
 
 .mujib{
     width: 100%;
-    margin-top: 5px;
 }
 
 .march{
@@ -192,29 +203,111 @@ body{
     
 }
 
-.footer-lift{
-    width: 58%;
-    height: 1622px;
+.footer-left{                           /*2*/
+    width: 52%;
+    height: 2500px;
     float: left;
     text-align: center;
     font-size: 30px;
+    margin-left: 3%;
 }
 
-.footer-right{
+.Screenshot{
+    width: 100%;
+    height: 370px;
+}
+
+.Latest{
+    background-color: #ffffff;
+    margin-top: 18px;
+    font-size: 15px;
+    padding: 10px 10px 20px 20px;
+    
+}
+
+.Notice{}
+
+.footer-right{                         /*3*/
     width: 20%;
-    height: 1622px;
+    height: 2500px;
     float: left;
+    margin-left: 3%;
+    margin-right: 1%;
+    text-align: center;
 }
 
-.marquss-img{
-    width: 40px;
-    height: 40px;
-    padding: 5px;
+.chairman{
+    width: 100%;
+    
 }
 
-.news-2 span{
-    vertical-align: top;
+.habib{
+    font-size: 30px;
+    background-color: #ffffff;
+    margin-top: 5px;
+
+
 }
+
+.chairman-title{
+    font-size: 23px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+.biswas{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.biswas-title{
+    font-size: 30px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+.acting{
+    font-size: 23px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+.Shaheen{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.ahmmad{
+    font-size: 30px;
+    background-color: #ffffff;
+    margin-top: 5px;
+}
+
+.controller{
+    font-size: 23px;
+    background-color: #ffffff;
+    margin-top: 5;
+}
+
+.notice-board{
+    font-size: 35px;
+    background-color: #ffffff;
+    margin-top: 18px;
+}
+
+.administration{
+    background-color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.college{
+    background-color: #ffffff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+
 
 .Copyright{
     width: 100%;
@@ -223,3 +316,4 @@ body{
     color: #7134e2;
     font-size: 20px
 }
+
