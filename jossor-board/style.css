@@ -14,26 +14,29 @@ body{
 
 .header{
     width: 100%;
-    height: 100px;
+    height: 156px;
+    background-color: #38b1b1;
 }
 
 .logo{
     width: 25%;
-    height: 150px;
-    background-color: #87ceeb;
+    /* height: 150px; */
+    /* background-color: #5cc2eb; */
     float: left;
 }
 
 .img-logo{
-    width: 100%;
-    height: 100%;
+    width: 150px;
+    height: 150px;
 }
 
-.title{
+.title {
     width: 75%;
-    height: 150px;
-    background-color: #5cc2eb;
+    /* height: 150px; */
+    /* background-color: #5cc2eb; */
     float: left;
+    padding: 50px 0px;
+    color: #ffffff;
 }
 
 .navbar{
@@ -62,46 +65,74 @@ body{
     display: inline-block;
     color: #ffffff;
     font-size: 20px;
-    padding: 20px 35px;
+    padding: 10px 33px;
     /* border-right-style:solid;
     border-right-color:#ffffff;
     border-right-width:17px */
     border-right: 2px solid #0c8080;
+    
+    /* width: 100px; */
+    /* height: 100px; */
 }
 
 .area ul li:hover{
     background-color: #7cffff;
-    
-
+    color: #000000;
+    /* transform: rotate(360deg); */
+    /* width: 50px; */
+    /* height: 50px; */
+    transition: all 2s;
 }
-
-
+.news{
+    height: 40px;
+    background-color: #7cd3d3;
+    font-size: 22px;
+}
 .news-1{
-    width: 20%;
-    height: 50px;
-    background-color: #6ae7e7;
-    text-align: center;
     float: left;
-    font-size: 30px;
-}
-
-.news-2{
-    width: 80%;
-    height: 50px;
-    background-color: #50f0f0;
-    float: left;
-    font-size: 25px;
-}
-
-.marquss-img{
     width: 4%;
-    height: 42px;
-    padding: 5px;
-} 
-
-.news-2 span{
-    vertical-align: top;
+    padding: 5px 15px;
+    /* font-size: 22px; */
+    font-weight: bold;
 }
+/* .news-2{
+    float: left;
+    width: 93.8%;
+}
+.news-2 marquee{
+    display: flex;
+    align-items: center;
+}
+.marquss-img{
+    height: 38px;
+}
+.news-2 marquee span{
+    display: flex;
+    align-items: center;
+    margin-left: 10px; 
+} */
+
+.news-2 marquee {
+    display: flex;
+    align-items: center;
+}
+
+.news-2 marquee .marquee-content {
+display: flex;
+align-items: center;
+}
+.marquss-img{
+    height: 38px;
+}
+
+.news-2 marquee .marquee-content img {
+margin-right: 10px;
+}
+
+.area ul li:last-child{
+    border-right: none;
+}
+    
 
 .footer{                          /*1*/
     width: 100%;

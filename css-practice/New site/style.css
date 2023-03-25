@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #D2D2D2;
+}
+
+.wraper{
+    width: 90%;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.header{
+    overflow: hidden;
+}
+
+.header-left{
+    float: left;
+    width: 38%;
+}
+.header-left img{
+    width: 180px;
+    padding: 30px;
+}
+.header-right{
+    float: right;
+    width: 60%;
+    height: 108px;
+}
+/* .search-box{
+    float: right;
+} */
+.header-right ul{
+    list-style-type: none;
+    vertical-align: bottom;
+    margin-top: 65px;
+}
+
+.header-right ul li{
+    display: inline-block;
+    font-size: 9px;
+}
+
+
+
+.slogan{
+   
+}
+
+.slider{}
+
+.slider-bottom{}
+
+.fetured{}
+
+.footer-top{}
+
+.footer-bottom{}

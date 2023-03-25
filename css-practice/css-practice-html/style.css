@@ -1,0 +1,62 @@
+.a{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px; 
+}
+.gnd{
+    font-size: 20px;
+}
+
+.qustion{
+    font-size: 25px;
+}
+
+.big-size{
+    transform: scale(1.4);
+    margin: 0px 0px 0px 15px;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.mrp{
+    height: 50px;
+    width: 150px;
+   border-style: solid;
+   margin: 10px;
+   padding: 30px;
+}
+
+.ab{
+    outline-style:solid; 
+    outline:30px solid green;
+    outline-offset: 5px;
+}
+
+.xyz{
+    text-align-last: right;
+    text-decoration: line-through;
+}
+
+.def{
+    text-align-last: center;
+    text-decoration: underline;
+}
+
+.ghi{
+    text-align-last: justify;
+    text-decoration: overline underline;
+}
+
+.jkl{
+    font-family: "Brush Script MT";
+    font-size: 30px;
+}
+
+.mno{
+    font-family: Papyrus, fantasy;           
+    font-size: 30px;
+}

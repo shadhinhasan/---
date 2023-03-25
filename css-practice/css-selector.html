@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{  /*tag selector*/
+            color: red;
+        }
+
+        .shadhin{ /* class selector */
+            font-size: 100px;
+        }
+
+        #hi{ /* id selector */
+            text-align: center;
+            text-decoration: line-through;
+        }
+
+
+        h1, h2, p, .shadhin, #underline {
+            /* Group/ multiple selector */
+            text-align: center;
+            color: red;
+        }
+
+        /* nested selector */
+        .outer h3 p{
+            border: 1px solid #999999;
+        }
+
+        .test-div h3 p{
+            color: green;
+        }
+
+        /* .test-div p{
+            background-color: #9be9cf;
+        } */
+    </style>
+</head>
+<body>
+    <p>My name is shadhin</p>
+    <p class="shadhin"> i am a student</p>
+    <h1 id="hi">This is a h1</h1>
+    <h1>This is a </h1>
+
+    <h3>Hello</h3>
+
+    <h1>Hello World!</h1>
+    <h2>Smaller heading!</h2>
+    <p>This is a paragraph.</p>
+    <div class="shadhin">this is shadhin div</div>
+    <u id="underline">This is under line tag</u>
+
+    <div class="outer">
+        <span>I am span & i am here</span> 
+        <h3 > Second span <p>sdfasdfasdf</p></h3>
+        <p >asdfsadfasdfasdf</p>
+    </div>
+
+    <div class="test-div">
+        <h3>
+            <p>asdfasdf</p>
+        </h3>
+        <p>asdfadfsadf</p>
+    </div>
+</body>
+</html>
+
+
+<!-- -----------------
+    CSS Selector 
+
+
+CSS Selector ৩ প্রকার
+    1. Tag Selector (ex: p, div, h1) । সরাসরি html tag এর নাম দিয়ে select করতে হয়।
+    2. class Selector (ex: .header, .nav, .footer) । html tag এর class="" attribute এর নাম দিয়ে select করতে হয়।
+    3. ID Selector (ex: #header, #nav, #footer) html tag এর id="" attribute এর নাম দিয়ে select করতে হয়।
+
+
+---------------------->

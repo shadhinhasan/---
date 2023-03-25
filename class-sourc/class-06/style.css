@@ -124,7 +124,7 @@ body{
     /* transform: scale(2); */
     /* transform: rotate(1800deg); */
     /* transform:scale(1) rotate(10deg); */
-    transition: all 5s;
+    transition: all 2s;
 }
 
 #content-wrapper #content .box:hover{
@@ -134,7 +134,7 @@ body{
     /* transform:scale(1.5) rotate(360deg); */
     width: 500px;
     height: 500px;
-    transform: skewY(50deg);
+    /* transform: skewY(50deg); */
 }
 
 #content-wrapper #content .box h1{
