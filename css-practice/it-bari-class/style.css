@@ -35,24 +35,10 @@ table, th, td{
     text-align: left;
 }
 
-div{
-    background-color: yellow;
-    width: 300px;
-    height: 300px;
+#wrapper div,  p  {                                  /*wrapper>p ai vabay lekha hoi taholay sudo tar child k nebay */
+    color: #ff5050;
 }
 
-span{
-    background-color: yellowgreen;
-}
-
-p{
-    background-color: violet;
-}
-
-ul{
-    background-color: turquoise;
-}
-
-li{
-    background-color: turquoise;
+#wrapper div{
+    /* color: #5da547; */
 }
