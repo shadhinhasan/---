@@ -1,44 +1,35 @@
-/* p{
-    font-family:sans-serif;
-    font-weight: normal;
-    font-style: inherit;
-    font-variant: small-caps;
-    text-transform: capitalize;
-    /* font-size: 20px; */
-    /* line-height: 20px; */
-    /* font: italic small-caps bolder 20px/100% sans-serif; */
-    /* background-image: url(image.jpg); */
-    /* background-repeat: repeat; */
-    /* background-size: cover; */
-    /* color: #7355df; */
 
 
-table{
-    text-align: center;
-    width: 600px;
-    margin: 0 auto;
-    background-color: #f5f0f0;
-    /* border-collapse: collapse;
-    border: 3px solid #9b473f; */
+form{
+    background-image: url(12315.jpg);
+    Background-attachment: fixed;
 }
-table, th, td{        
-    border-collapse:collapse ;
-    border: 3px solid #9b473f;
+.inp{
+    width: 150px;
+    color: #EE9821;
+    border: 2px solid #d16c6c;
+    border-radius: 5px;
 }
 
-.jesan{
-    background-color: red;
-    color: white;
+.inp2{
+    width: 109px;
+    color: #EE9821;
+    border: 2px solid #d16c6c;
+    border-radius: 5px;
 }
 
-.total{
-    text-align: left;
+.write{
+    border: 3px solid #d16c6c;
+    border-radius: 5px;
+    color: #777eeb;
 }
 
-#wrapper div,  p  {                                  /*wrapper>p ai vabay lekha hoi taholay sudo tar child k nebay */
-    color: #ff5050;
+.inp3{
+    width: 80px;
+    height: 30px;
+    border: 3px solid #d16c6c;
+    color: #EE9821;
+    border-radius: 15px 5px 15px 5px;
 }
 
-#wrapper div{
-    /* color: #5da547; */
-}
+

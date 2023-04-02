@@ -8,76 +8,68 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-   <!-- <p>
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
-        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. 
-        It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.Contrary to popular belief, Lorem Ipsum is not simply random text.
-        It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
-        Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
-        This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-        This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-    </p>-->
-    <br>
-    <br>
-    <table cellpadding="20">              <!-- border="2" ব্যবহার করা যাবে বাট css এ Table,th,td উঠাই দিতে হবে-->
-        <caption>This is Table</caption>
-        <thead>
-            <tr>
-               <th>No</th>                              
-               <th>Name</th>                              
-               <th>Roll</th>                              
-               <th>Class</th>
-               <th>Grade</th>                              
-            </tr>
-        </thead>
-        <tfoot>
-            <tr>
-                <td class="total" colspan="3">Total Student</td>
-                <td colspan="2">20</td>
-            </tr>
-        </tfoot>
-        <tr>
-            <td>01</td>
-            <td>Rifat</td>
-            <td>582634</td>
-            <td>Ten</td>
-            <td>A-</td>            
-        </tr>
-        <tr>
-            <td>02</td>
-            <td>Rafi</td>
-            <td>152147</td>
-            <td>Ten</td> 
-            <td>A</td>           
-        </tr>
-        <tr>
-            <td>03</td>
-            <td>Sejan</td>
-            <td>254136</td>
-            <td>Ten</td>
-            <td>A+</td>
-        </tr>
-        <tr>
-            <td>04</td>
-            <td>Jesan</td>
-            <td>285236</td>
-            <td>Ten</td>
-            <td class="jesan">Fail</td>
-        </tr>
-    </table>
-    <div id="wrapper">
-        <p>My name is shadhin</p>
-        <p>This is a p tag</p>
-        <span>This is a span tag</span>
-        <div>
-            <p>
-                <div>
-                    <p>Thais is inner p tag</p>
-                </div>
-            </p>
-        </div>
-        <p>This is a p tag</p>
-    </div>
+    <form action="">                          <!--class=5 ses-->
+        <fieldset> 
+            <legend>This Is My Form</legend>             
+        First Name:
+        <br>
+        <input type="text" class="inp" name="firstname" placeholder="First name">
+        <br><br>
+        Last Name:
+        <br>
+        <input type="text" class="inp" name="lastname" placeholder="Last name">
+        <br><br>
+        Email:
+        <br>
+        <input type="email" class="inp" placeholder="Email">
+        <br><br>
+        password:
+        <br>
+        <input type="password" class="inp" placeholder="password" >
+        <br><br>
+        Gender
+        <br>
+        <input type="radio" name="Gender">Male
+        <br>
+        <input type="radio" name="Gender">Female
+        <br><br>
+        Country:
+        <br>
+        <select class="inp">
+            <option>Select your country</option>
+            <option>USA</option>
+            <option>Canada</option>
+            <option>India</option>
+            <option selected>Pakistan</option>
+            <option>Nepal</option>
+            <option>Bangladesh</option>
+            <option>Bhutan</option>
+        </select>
+        <br><br>
+        Birthdate:
+        <br>
+        <input type="date" class="inp">
+        <br><br>
+        Age:
+        <br>
+        <input type="number" class="inp" placeholder="years">
+        <br><br>
+        Favourite Color:
+        <br>
+        <input type="color" class="inp2">
+        <br><br>
+        Upload File:
+        <br>
+        <input type="File">
+        <br><br>
+        Write Something:
+        <br>
+        <textarea cols="30" rows="5" class="write">Enter your address</textarea>
+        <br><br>
+        <input type="Submit" class="inp3">
+        <input type="reset" class="inp3">
+        <br><br>
+        </fieldset>
+    </form>
 </body>
 </html>
