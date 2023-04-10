@@ -1,0 +1,34 @@
+.box-model{
+    margin: 50px;
+    border: 30px solid #04AA6D;
+    padding: 30px;
+    outline: 10px solid #008000;
+}
+.this{
+    vertical-align: top;
+}
+
+.emaile{
+    vertical-align: bottom;
+}
+
+audio{
+    background: #ff0000;
+    padding: 10px;
+    border-radius: 40px;
+}
+
+video{
+    width: 450px; 
+    /* height: 400px;    */
+    background: #008000;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+iframe{
+    background: #04AA6D;
+    padding: 7px;
+    border-radius: 30px;
+
+}

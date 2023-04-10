@@ -1,0 +1,28 @@
+.animition{
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+    position: relative;
+    /* margin: 0 auto; */
+
+    animation-name:hasan;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: reverse;
+    background:radial-gradient(red 50%, green 50%)
+}
+
+@keyframes hasan {
+    0%{background-color: #ff4343; left:0;top:0;}
+    25%{background-color: #0d0df1; left:500px;top:0;}
+    50%{background-color: #fd51fd; left:500px;top:500px;}
+    75%{background-color: #83e71f; left:0;top:500px;}
+    100%{background-color: #ffa500; left:0;top:0;}
+}
+
+.audio{
+    width: 500px;
+    height: 300px;
+    background-color: #0d0df1;
+}

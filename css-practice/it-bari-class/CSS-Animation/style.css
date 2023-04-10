@@ -2,16 +2,46 @@
     margin: 0 auto;
     width: 300px;
     height: 300px;
-    background-color: darkorange;
+    background-color: #ff8c00;
     animation-name: shadhin;
-    animation-duration: 2s;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
     }
 
     @keyframes shadhin{
-        from{
-            background-color: yellow, green;
-        }
-        to{
-            background-color: blue; border-radius:50% ;
-        }
+        30%{background-color:red}
+        20%{background-color:blue}
+        100%{background-color:green}
+        60%{background-color:#A0BE64}
+        50%{background-color:#675EF8}
+        80%{background-color:#F8E504}
+
+
+    }
+
+    .mydiv2{
+        margin: 0 auto;
+        width: 500px;
+        height: 300px;
+        background-color: #c300ff;
+        animation-name: hasan;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        /* animation-iteration-count: 2; */
+        position: relative;
+        border: 5px solid black;
+        border-radius: 10px;
+        Animation-delay:3s;
+        animation-direction: alternate;
+    }
+    
+        @keyframes hasan{
+            /* 20%{background-color:#a7a7ff}
+            100%{background-color:#8bee8b}
+            60%{background-color:#7d9e3a}
+            50%{background-color:#171269}
+            80%{background-color:#fff476}
+            30%{background-color:#f58585}   */
+            from{left: 0;}
+            to{left: 300px;}
     }
