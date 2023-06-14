@@ -28,7 +28,7 @@ body{
 }
 
 .goes{
-    color: #6e5016;
+    color: #000000;
     padding: 0px 0px 0px 10px ;
 }
 
@@ -46,7 +46,12 @@ body{
     display: inline-block;
     padding: 7px 20px;
     border-right: 2px solid #e99f17;
+    
  }
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #000;
+}
 
  .menu-bar ul li:hover{
     background-color: #e99f17;
@@ -66,9 +71,12 @@ body{
     
 } 
 
-.ime{
+.image{
     width: 100%;
     height: 100%; 
+    /* background-repeat: no-repeat;
+    background-position: right top;
+    margin-left: 492px; */
     
     
     
@@ -77,7 +85,7 @@ body{
 .content{
     background-color: #ffffff;
     height: 112px;
-    border-top: 7px solid #920404;
+    border-top: 7px solid #795107;
 }
 
 .lorem{
@@ -87,7 +95,7 @@ body{
 }
 
 .lorem-title{
-    font-size: 10px;
+    font-size: 17px;
 }
 
 .sidebar{
@@ -105,20 +113,33 @@ body{
     margin-left: 15px;
     /* border-bottom: 2px dotted #570e0e; */
 }
+.sidebar ul li a{
+    text-decoration: none;
+    color: #000;
+}
 
 .sidebar ul li:hover{
     background-color: #e99f17;
-    color: aqua;
+    /* color: aqua; */
 }
 
-.Right p{
+.Right{
     text-align: center;
     background: #350808;
-    color: #ffffff;
-    font-size: 10px;
     padding: 5px;
+}
+.Right ul{
+    list-style-type: none;
+}
+.Right ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
 }
 
 .headline{
     color: #627233;
+    font-size: 25px;
 }
+.headline ul li{}
+.headline ul li{}

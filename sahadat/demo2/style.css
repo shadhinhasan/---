@@ -1,0 +1,150 @@
+/* ======================== */
+/* ====Start Common CSS==== */
+/* ======================== */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+body, html{
+    height: 100%;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    line-height: 150%;
+    margin-bottom: 2em;
+}
+/* ============================== */
+.container-full{
+    width: 100%;
+    height: auto;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+.fix{
+    overflow: hidden;
+}
+.clear{
+    clear: both;
+}
+.aligncenter{
+    display: block;
+    margin: 0 auto;
+}
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+/* ======================== */
+/* =====End Common Css===== */
+/* ======================== */
+
+.menu{
+    background: #000;
+    min-height: 50px;
+}
+.menu ul{}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 11px 15px;
+    display: block;
+    color: #afaaaa;
+    font-size: 23px;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+}
+.menu ul li a:hover{
+    color: #fff;
+}
+/* ======================== */
+/* =====End Header Menu===== */
+/* ======================== */
+
+.slider{
+    background: url(images/slider1.jpg) no-repeat;
+    background-size: cover;
+    height: 500px;
+    position: relative;
+}
+.slider-menu{
+    background-color: #000000;
+    height: 50px;
+    opacity: 0.7; 
+    position: absolute;
+    top: 450px;
+    width: 100%;  
+}
+.slider-menu ul{}
+.slider-menu ul li{
+    list-style: none;
+    float: left;
+}
+.slider-menu ul li a{
+    text-decoration: none;
+    padding: 11px 15px;
+    display: block;
+    color: #afaaaa;
+    font-size: 23px;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+}
+.slider-menu ul li a:hover{
+    color: #fff;
+}
+
+.search{
+    margin-right: 15px;
+    margin-top: 5px;
+    position: relative;
+}
+.search input {
+    height: 40px;
+    width: 300px;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-size: 20px;
+    box-sizing: border-box;
+}
+.search button {
+    background: url(images/images.png) no-repeat;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    text-indent: -9999999 !important;
+    cursor: pointer;
+    right: 8px;
+    top: 9px;
+    border: none;
+    background-size: cover;
+}

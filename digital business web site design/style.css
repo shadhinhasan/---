@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.text-a-start{
+    text-align: left !important;
+}
+.bg-green{
+    background-color: #27AE60;
+}
+.menu{}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+    position: relative;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 29px 22px;
+    display: block;
+    color: #000;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.menu ul li a:hover{}
+.menu li ul{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    left: -99999px;
+}
+.menu li ul li{
+    float: none;
+}
+.menu li:hover ul{
+    left: 0;
+    background-color: #ECF1FE;
+}
+
+/* .menu li ul li a{
+    background-color: #ECF1FE;
+} */
+
+#menu-dropdown{
+}
+#menu-dropdown li{
+    width: 200px;
+}
+#menu-dropdown li a{
+    font-size: 14px !important;}
+#menu-dropdown li:hover a{
+    color: #fff;
+    background-color: #27AE60;
+}
+.top-serch-icon{
+    padding: 36px;
+}
+.Slider{
+    background-image: url(images/back-ground.avif);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    padding: 150px;
+    background-size: cover;
+}
+.disabled{
+    color: #27AE60;
+}
+ .slider-button{
+    background-color: #27AE60;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none
+    
+    
+}
+.slider-text{
+    width: 615px;
+}
+
+.box{
+    background: url(images/Untitled.jpg) no-repeat center / cover;
+    height: 275px;
+    border-radius: 5px;
+}
+.layer {
+    background-color: #000000;
+    opacity: 0.5; 
+    height: 100%;
+    width: 100%;
+    color: #ffffff !important;
+}
+
+.layer-btn {
+    background-color: #292928 !important;
+    color: #fff;
+    padding: 7px 23px;
+    border-radius: 7px;
+    opacity: 1 !important; /* Add this line to override the opacity */
+}
+
+.layer p{
+    padding: 200px 20px 20px 20px;
+}
